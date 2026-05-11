@@ -69,6 +69,28 @@ export class App {
 }
 ```
 
+## OneOf Input Pattern (anyOf + x-promoted)
+
+When an app accepts one of several input types (e.g. text OR file), use `x-promoted` and a Zod `refine` to enforce at least one:
+
+```javascript
+export const RunInput = z.object({
+  texts: z.array(z.string()).optional()
+    .describe("Texts to process."),
+  textsFile: z.any().optional()
+    .describe("File containing texts (one per line)."),
+}).refine(
+  (data) => data.texts || data.textsFile,
+  { message: "Either texts or textsFile must be provided" }
+);
+
+// Add x-promoted via schema transform in inf.yml or manually in the generated schema
+```
+
+Note: Zod doesn't have a direct equivalent of `json_schema_extra`, so `x-promoted` must be added via schema post-processing or in the generated JSON schema. The `anyOf` constraint is expressed via `.refine()` at validation time.
+
+For full `anyOf` + `x-promoted` support with automatic UI rendering, the Python SDK has better ergonomics — see the Python reference.
+
 ## File Handling
 
 Use `File` from `@inferencesh/app` for input and output files. The engine uploads local paths to CDN automatically.

@@ -58,6 +58,38 @@ class App(BaseApp):
         self.model = AutoModel.from_pretrained(config.model_id)
 ```
 
+## OneOf Input Pattern (anyOf + x-promoted)
+
+When an app accepts one of several input types (e.g. text OR file), use `anyOf` with `x-promoted` to show them as top-level toggle options in the UI:
+
+```python
+class AppInput(BaseAppInput):
+    texts: Optional[List[str]] = Field(
+        default=None,
+        json_schema_extra={"x-promoted": True},
+        description="Texts to process.",
+    )
+    texts_file: Optional[File] = Field(
+        default=None,
+        json_schema_extra={"x-promoted": True},
+        description="File containing texts (one per line).",
+    )
+    model_config = {
+        "json_schema_extra": {
+            "anyOf": [
+                {"properties": {"texts": {"not": {"type": "null"}}}},
+                {"properties": {"texts_file": {"not": {"type": "null"}}}}
+            ]
+        }
+    }
+```
+
+Key points:
+- Both fields are `Optional` with `default=None` at the Pydantic level
+- `"x-promoted": True` surfaces them as primary input options in the UI
+- `model_config["json_schema_extra"]["anyOf"]` enforces at least one must be non-null
+- Validate at runtime too: `if not input_data.texts and not input_data.texts_file: raise ValueError(...)`
+
 ## File Handling
 
 ```python

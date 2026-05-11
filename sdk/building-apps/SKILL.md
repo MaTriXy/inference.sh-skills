@@ -14,7 +14,7 @@ Build and deploy applications on the inference.sh platform. Apps can be written 
 - Output classes that include `output_meta` MUST extend `BaseAppOutput`, not `BaseModel`. Using `BaseModel` will silently drop `output_meta` from the response.
 - Always `cd` into the app directory before running any `belt` command. Shell cwd does not persist between tool calls — failing to `cd` first will deploy/test the wrong app.
 - Always include `self.logger.info(...)` calls in `run()` by default. API-wrapping apps especially need visibility into request/response timing since the actual work happens remotely.
-- Share helper modules across sibling apps with **symlinks**, not copies. `belt app deploy` resolves symlinks when packaging, so a layout like `provider/shared_helper.py` with `provider/app-name/shared_helper.py -> ../shared_helper.py` deploys correctly and keeps the helper in one place. Do NOT copy helper files into each app.
+- Share helper modules across sibling apps with **symlinks** + **`__init__.py`** + **relative imports**. The app directory needs an `__init__.py` (e.g. `from .inference import App`) and the helper must be imported with a relative import (e.g. `from .shared_helper import func`). Layout: `provider/shared_helper.py` with `provider/app-name/shared_helper.py -> ../shared_helper.py` and `provider/app-name/__init__.py`. Without `__init__.py` and relative imports, the validator cannot resolve sibling modules. Do NOT copy helper files into each app.
 
 ## CLI Installation
 
