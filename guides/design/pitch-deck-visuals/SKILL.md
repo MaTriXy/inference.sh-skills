@@ -4,6 +4,8 @@ description: "Investor pitch deck structure with slide-by-slide framework, visua
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Pitch Deck Visuals
 
 Create investor-ready pitch deck visuals via [inference.sh](https://inference.sh) CLI.

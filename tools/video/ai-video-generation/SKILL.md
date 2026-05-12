@@ -4,6 +4,8 @@ description: "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan,
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # AI Video Generation
 
 Generate videos with 40+ AI models via [inference.sh](https://inference.sh) CLI.

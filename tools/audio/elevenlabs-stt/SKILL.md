@@ -4,6 +4,8 @@ description: "ElevenLabs speech-to-text with Scribe models and forced alignment 
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # ElevenLabs Speech-to-Text
 
 High-accuracy transcription with Scribe models via [inference.sh](https://inference.sh) CLI.

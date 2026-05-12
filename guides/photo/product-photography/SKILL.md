@@ -4,6 +4,8 @@ description: "AI product photography with studio lighting, lifestyle shots, and 
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Product Photography
 
 Create professional product images with AI via [inference.sh](https://inference.sh) CLI.

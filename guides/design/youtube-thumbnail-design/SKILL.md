@@ -4,6 +4,8 @@ description: "YouTube thumbnail design with specific dimensions, contrast rules,
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # YouTube Thumbnail Design
 
 Create high-CTR YouTube thumbnails with AI image generation via [inference.sh](https://inference.sh) CLI.

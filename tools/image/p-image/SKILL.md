@@ -4,6 +4,8 @@ description: "Generate images with Pruna P-Image models via inference.sh CLI. Mo
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Pruna P-Image Generation
 
 Generate images with Pruna's optimized P-Image models via [inference.sh](https://inference.sh) CLI.

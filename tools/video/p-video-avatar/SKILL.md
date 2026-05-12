@@ -4,6 +4,8 @@ description: "Generate talking head avatar videos with Pruna P-Video-Avatar via 
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Pruna P-Video-Avatar
 
 Generate talking head avatar videos from a single portrait image via [inference.sh](https://inference.sh) CLI.

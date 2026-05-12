@@ -4,6 +4,8 @@ description: "Video ad creation with exact platform-specific specs for TikTok, I
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Video Ad Specs
 
 Create platform-specific video ads via [inference.sh](https://inference.sh) CLI.

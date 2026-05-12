@@ -4,6 +4,8 @@ description: "Multi-slide carousel design for Instagram, LinkedIn, and Twitter/X
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Social Media Carousel
 
 Design high-engagement carousel posts via [inference.sh](https://inference.sh) CLI.

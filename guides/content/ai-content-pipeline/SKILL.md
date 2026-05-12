@@ -4,6 +4,8 @@ description: "Build multi-step AI content creation pipelines combining image, vi
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # AI Content Pipeline
 
 Build multi-step content creation pipelines via [inference.sh](https://inference.sh) CLI.

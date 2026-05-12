@@ -4,6 +4,8 @@ description: "Product Hunt launch optimization with specific specs, timing, and 
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Product Hunt Launch
 
 Optimize your Product Hunt launch with research and visuals via [inference.sh](https://inference.sh) CLI.

@@ -4,6 +4,8 @@ description: "ElevenLabs automatic dubbing - translate and dub audio/video into 
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # ElevenLabs Dubbing
 
 Automatically dub audio and video into 29 languages via [inference.sh](https://inference.sh) CLI.

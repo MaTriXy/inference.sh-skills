@@ -4,6 +4,8 @@ description: "Best practices and techniques for writing effective AI video gener
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Video Prompting Guide
 
 Best practices for writing effective AI video generation prompts via [inference.sh](https://inference.sh).

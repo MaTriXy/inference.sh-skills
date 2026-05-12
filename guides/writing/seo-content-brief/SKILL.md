@@ -4,6 +4,8 @@ description: "SEO content brief creation with keyword research, search intent an
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # SEO Content Brief
 
 Create data-driven content briefs via [inference.sh](https://inference.sh) CLI.

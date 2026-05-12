@@ -4,6 +4,8 @@ description: "Upscale and enhance images with Real-ESRGAN, Thera, Topaz, FLUX Up
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Image Upscaling
 
 Upscale and enhance images via [inference.sh](https://inference.sh) CLI.

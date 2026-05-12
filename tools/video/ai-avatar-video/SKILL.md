@@ -4,6 +4,8 @@ description: "Create AI avatar and talking head videos via inference.sh CLI. Rec
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # AI Avatar & Talking Head Videos
 
 Create AI avatars and talking head videos via [inference.sh](https://inference.sh) CLI.
@@ -138,7 +140,7 @@ For models without built-in TTS (OmniHuman, PixVerse), generate speech first:
 # 1. Generate speech — Inworld TTS-2 for expressive character voices
 belt app run inworld/text-to-speech-2 --input '{
   "text": "[friendly] Welcome to our product demo! [excited] Let me show you three features that will change how you work.",
-  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "voice_id": "Sarah",
   "delivery_mode": "CREATIVE"
 }' > speech.json
 

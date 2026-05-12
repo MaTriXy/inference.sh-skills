@@ -4,6 +4,8 @@ description: "Multi-speaker dialogue audio creation with ElevenLabs and Dia TTS.
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Dialogue Audio
 
 Create realistic multi-speaker dialogue with Dia TTS via [inference.sh](https://inference.sh) CLI.

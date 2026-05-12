@@ -4,6 +4,8 @@ description: "Remove backgrounds from images with BiRefNet via inference.sh CLI.
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Background Removal
 
 Remove backgrounds from images via [inference.sh](https://inference.sh) CLI.

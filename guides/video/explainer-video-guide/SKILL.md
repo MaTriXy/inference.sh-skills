@@ -4,6 +4,8 @@ description: "Explainer video production guide: scripting, voiceover, visuals, a
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Explainer Video Guide
 
 Create explainer videos from script to final cut via [inference.sh](https://inference.sh) CLI.

@@ -4,6 +4,8 @@ description: "Structured competitive analysis with feature matrices, SWOT, posit
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Competitor Teardown
 
 Structured competitive analysis with research and screenshots via [inference.sh](https://inference.sh) CLI.

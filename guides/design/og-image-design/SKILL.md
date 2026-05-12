@@ -4,6 +4,8 @@ description: "Open Graph and social sharing image design with platform specs, te
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # OG Image Design
 
 Create social sharing images (Open Graph) via [inference.sh](https://inference.sh) CLI.

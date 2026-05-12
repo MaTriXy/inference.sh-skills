@@ -4,6 +4,8 @@ description: "Twitter/X thread writing with hook tweets, thread structure, and e
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Twitter/X Thread Creation
 
 Write high-engagement Twitter/X threads via [inference.sh](https://inference.sh) CLI.

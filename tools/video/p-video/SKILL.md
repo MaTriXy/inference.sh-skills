@@ -4,6 +4,8 @@ description: "Generate videos with Pruna P-Video and WAN models via inference.sh
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Pruna P-Video Generation
 
 Generate videos with Pruna's optimized video models via [inference.sh](https://inference.sh) CLI.

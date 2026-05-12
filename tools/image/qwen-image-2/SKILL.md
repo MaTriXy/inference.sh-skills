@@ -4,6 +4,8 @@ description: "Generate and edit images with Alibaba Qwen-Image-2.0 models via in
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Qwen-Image - Alibaba Image Generation
 
 Generate and edit images with Alibaba Qwen-Image-2.0 models via [inference.sh](https://inference.sh) CLI.

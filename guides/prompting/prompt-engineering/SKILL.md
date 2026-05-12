@@ -4,6 +4,8 @@ description: "Master prompt engineering for AI models: LLMs, image generators, v
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Prompt Engineering Guide
 
 Master prompt engineering for AI models via [inference.sh](https://inference.sh) CLI.

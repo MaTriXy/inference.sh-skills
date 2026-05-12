@@ -4,6 +4,8 @@ description: "Convert text to natural speech with Inworld TTS, ElevenLabs, DIA T
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Text-to-Speech
 
 Convert text to natural speech via [inference.sh](https://inference.sh) CLI.
@@ -57,12 +59,14 @@ Inworld TTS-2 supports natural-language steering with `[brackets]` — control e
 ```bash
 belt app run inworld/text-to-speech-2 --input '{
   "text": "I have some [exciting] news to share with you! [pause] We just hit one million users. [laugh]",
-  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "voice_id": "Sarah",
   "delivery_mode": "CREATIVE"
 }'
 ```
 
 Delivery modes: `STABLE` (consistent), `BALANCED` (natural, default), `CREATIVE` (expressive).
+
+**Built-in voices** (271+ across 15 languages): `Sarah`, `Alex`, `Ashley`, `Dennis`, `Hana`, `Blake`, `Luna`, `Clive`, and many more. Browse all voices in the [Inworld TTS Playground](https://platform.inworld.ai/tts-playground) or list programmatically via `GET https://api.inworld.ai/voices/v1/voices`.
 
 ### Inworld TTS 1.5 — Low Latency
 
@@ -72,13 +76,13 @@ For real-time applications where speed matters:
 # Max quality at low latency (<200ms)
 belt app run inworld/text-to-speech-1-5-max --input '{
   "text": "Welcome back! How can I help you today?",
-  "voice_id": "JBFqnCBsd6RMkjVDRZzb"
+  "voice_id": "Ashley"
 }'
 
 # Ultra-low latency (~120ms) for conversational AI
 belt app run inworld/text-to-speech-1-5-mini --input '{
   "text": "Sure, let me look that up for you.",
-  "voice_id": "JBFqnCBsd6RMkjVDRZzb"
+  "voice_id": "Dennis"
 }'
 ```
 
@@ -148,7 +152,7 @@ For models without built-in TTS (OmniHuman, PixVerse), generate speech first:
 # 1. Generate speech with Inworld TTS-2 (emotion steering)
 belt app run inworld/text-to-speech-2 --input '{
   "text": "[friendly] Your script here. [excited] This is the best part!",
-  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "voice_id": "Sarah",
   "delivery_mode": "CREATIVE"
 }' > speech.json
 

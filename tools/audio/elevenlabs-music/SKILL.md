@@ -4,6 +4,8 @@ description: "ElevenLabs AI music generation - create original music from text p
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # ElevenLabs Music Generation
 
 Generate original music from text prompts via [inference.sh](https://inference.sh) CLI.

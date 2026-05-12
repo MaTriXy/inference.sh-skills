@@ -4,6 +4,8 @@ description: "Access Claude, Gemini, Kimi, GLM and 100+ LLMs via inference.sh CL
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # LLM Models via OpenRouter
 
 Access 100+ language models via [inference.sh](https://inference.sh) CLI.

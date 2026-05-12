@@ -4,6 +4,8 @@ description: "Email marketing design with layout patterns, subject line formulas
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Email Design
 
 Design high-converting marketing emails with AI-generated visuals via [inference.sh](https://inference.sh) CLI.

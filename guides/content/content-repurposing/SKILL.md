@@ -4,6 +4,8 @@ description: "Content atomization — turn one piece of content into many format
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Content Repurposing
 
 Turn one piece of content into many formats via [inference.sh](https://inference.sh) CLI.

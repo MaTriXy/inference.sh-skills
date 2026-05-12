@@ -4,6 +4,8 @@ description: "Generate AI sound effects from text descriptions with ElevenLabs v
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # ElevenLabs Sound Effects
 
 Generate sound effects from text descriptions via [inference.sh](https://inference.sh) CLI.

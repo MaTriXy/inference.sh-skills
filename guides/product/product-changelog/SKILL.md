@@ -4,6 +4,8 @@ description: "Product changelog and release notes that users actually read. Cove
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Product Changelog
 
 Write changelogs and release notes that users read and care about via [inference.sh](https://inference.sh) CLI.

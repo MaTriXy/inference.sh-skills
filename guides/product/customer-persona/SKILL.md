@@ -4,6 +4,8 @@ description: "Research-backed customer persona creation with market data and ava
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Customer Persona
 
 Create data-backed customer personas with research and visuals via [inference.sh](https://inference.sh) CLI.

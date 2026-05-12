@@ -4,6 +4,8 @@ description: "Create AI marketing videos for ads, promos, product launches, and 
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # AI Marketing Videos
 
 Create professional marketing videos via [inference.sh](https://inference.sh) CLI.

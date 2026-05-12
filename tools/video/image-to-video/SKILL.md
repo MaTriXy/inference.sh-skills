@@ -4,6 +4,8 @@ description: "Still-to-video conversion guide: model selection, motion prompting
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Image to Video
 
 Convert still images to animated videos via [inference.sh](https://inference.sh) CLI.

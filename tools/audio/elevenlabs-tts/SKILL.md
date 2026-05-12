@@ -4,6 +4,8 @@ description: "ElevenLabs text-to-speech with 22+ premium voices, multilingual su
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # ElevenLabs Text-to-Speech
 
 Premium text-to-speech with 22+ voices via [inference.sh](https://inference.sh) CLI.
@@ -187,10 +189,7 @@ npx skills add inference-sh/skills@elevenlabs-voice-changer
 # ElevenLabs sound effects
 npx skills add inference-sh/skills@elevenlabs-sound-effects
 
-# Inworld TTS (100+ languages, emotion steering, character voices)
-npx skills add inference-sh/skills@text-to-speech
-
-# All TTS models (Kokoro, DIA, Chatterbox, Inworld, and more)
+# All TTS models (Kokoro, DIA, Chatterbox, Inworld TTS, and more)
 npx skills add inference-sh/skills@text-to-speech
 
 # Full platform skill (all 250+ apps)

@@ -4,6 +4,8 @@ description: "Python SDK for inference.sh - run AI apps, build agents, and integ
 allowed-tools: Bash(pip install inferencesh), Bash(python *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Python SDK
 
 Build AI applications with the [inference.sh](https://inference.sh) Python SDK.

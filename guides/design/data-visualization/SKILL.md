@@ -4,6 +4,8 @@ description: "Data visualization with chart selection, color theory, and annotat
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Data Visualization
 
 Create clear, effective data visualizations via [inference.sh](https://inference.sh) CLI.

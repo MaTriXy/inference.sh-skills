@@ -4,6 +4,8 @@ description: "ElevenLabs multi-speaker dialogue generation - create conversation
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # ElevenLabs Dialogue
 
 Generate multi-speaker dialogue audio via [inference.sh](https://inference.sh) CLI.

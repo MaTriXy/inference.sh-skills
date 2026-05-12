@@ -4,6 +4,8 @@ description: "Press release writing in AP style with inverted pyramid structure.
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Press Release Writing
 
 Write professional press releases with research and fact-checking via [inference.sh](https://inference.sh) CLI.

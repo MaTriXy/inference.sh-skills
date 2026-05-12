@@ -4,6 +4,8 @@ description: "JavaScript/TypeScript SDK for inference.sh - run AI apps, build ag
 allowed-tools: Bash(npm *), Bash(npx *), Bash(node *), Bash(pnpm *), Bash(yarn *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # JavaScript SDK
 
 Build AI applications with the [inference.sh](https://inference.sh) JavaScript/TypeScript SDK.

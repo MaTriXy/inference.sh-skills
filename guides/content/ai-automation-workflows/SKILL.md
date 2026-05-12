@@ -4,6 +4,8 @@ description: "Build automated AI workflows combining multiple models and service
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # AI Automation Workflows
 
 Build automated AI workflows via [inference.sh](https://inference.sh) CLI.

@@ -4,6 +4,8 @@ description: "Landing page conversion optimization with layout rules, hero secti
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Landing Page Design
 
 Design high-converting landing pages with AI-generated visuals via [inference.sh](https://inference.sh) CLI.

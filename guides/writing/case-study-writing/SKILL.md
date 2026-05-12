@@ -4,6 +4,8 @@ description: "B2B case study writing with STAR framework, data visualization, an
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Case Study Writing
 
 Create compelling B2B case studies with research and visuals via [inference.sh](https://inference.sh) CLI.

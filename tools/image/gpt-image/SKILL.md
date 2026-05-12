@@ -4,6 +4,8 @@ description: "Generate and edit images with OpenAI GPT-Image-2 via inference.sh 
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # GPT-Image-2
 
 Generate and edit images with OpenAI's GPT-Image-2 via [inference.sh](https://inference.sh) CLI.

@@ -4,6 +4,8 @@ description: "Film and video storyboarding with shot vocabulary, continuity rule
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Storyboard Creation
 
 Create visual storyboards with AI image generation via [inference.sh](https://inference.sh) CLI.

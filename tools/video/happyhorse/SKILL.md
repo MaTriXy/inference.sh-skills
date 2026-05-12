@@ -4,6 +4,8 @@ description: "Generate and edit videos with Alibaba HappyHorse 1.0 models via in
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # HappyHorse 1.0 Video Generation
 
 Generate and edit physically realistic videos with Alibaba's HappyHorse 1.0 models via [inference.sh](https://inference.sh) CLI.

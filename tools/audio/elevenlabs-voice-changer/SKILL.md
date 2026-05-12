@@ -4,6 +4,8 @@ description: "ElevenLabs voice changer - transform any voice to a different voic
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # ElevenLabs Voice Changer
 
 Transform any voice into a different voice via [inference.sh](https://inference.sh) CLI.

@@ -4,6 +4,8 @@ description: "Character consistency across AI-generated images with reference sh
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Character Design Sheet
 
 Create consistent characters across multiple AI-generated images via [inference.sh](https://inference.sh) CLI.

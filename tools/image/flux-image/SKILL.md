@@ -4,6 +4,8 @@ description: "Generate images with FLUX models (Black Forest Labs) via inference
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # FLUX Image Generation
 
 Generate images with FLUX models via [inference.sh](https://inference.sh) CLI.

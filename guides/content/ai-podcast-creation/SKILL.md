@@ -4,6 +4,8 @@ description: "Create AI-powered podcasts with text-to-speech, music, and audio e
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # AI Podcast Creation
 
 Create AI-powered podcasts and audio content via [inference.sh](https://inference.sh) CLI.

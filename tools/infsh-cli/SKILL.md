@@ -4,6 +4,8 @@ description: "Run 250+ AI apps via inference.sh CLI - image generation, video cr
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # [inference.sh](https://inference.sh)
 
 Run 250+ AI apps in the cloud with a simple CLI. No GPU required.

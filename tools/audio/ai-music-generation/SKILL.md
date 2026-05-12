@@ -4,6 +4,8 @@ description: "Generate AI music and songs with ElevenLabs, Diffrythm, Tencent So
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # AI Music Generation
 
 Generate music and songs via [inference.sh](https://inference.sh) CLI.

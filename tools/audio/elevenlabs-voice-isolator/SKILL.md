@@ -4,6 +4,8 @@ description: "ElevenLabs voice isolator - remove background noise and isolate vo
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # ElevenLabs Voice Isolator
 
 Remove background noise and isolate voices from audio via [inference.sh](https://inference.sh) CLI.

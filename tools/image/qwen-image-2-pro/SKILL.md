@@ -4,6 +4,8 @@ description: "Generate images with Alibaba Qwen-Image-2.0-Pro via inference.sh C
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Qwen-Image Pro - Professional Image Generation
 
 Generate images with Alibaba Qwen-Image-2.0-Pro via [inference.sh](https://inference.sh) CLI. Best for professional text rendering and complex designs.

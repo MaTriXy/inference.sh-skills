@@ -4,6 +4,8 @@ description: "Generate videos with ByteDance Seedance 2.0 via inference.sh CLI. 
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Seedance 2.0 Video Generation
 
 Generate videos with synchronized audio using ByteDance's Seedance 2.0 via [inference.sh](https://inference.sh) CLI.

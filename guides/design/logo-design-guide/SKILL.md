@@ -4,6 +4,8 @@ description: "Logo design principles and AI image generation best practices for 
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Logo Design Guide
 
 Design effective logos with AI image generation via [inference.sh](https://inference.sh) CLI.

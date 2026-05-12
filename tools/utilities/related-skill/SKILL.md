@@ -4,6 +4,8 @@ description: "Discover and install related skills from inference.sh skill regist
 allowed-tools: Bash(npx skills *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Related Skills Discovery
 
 Find and install complementary skills to expand your AI agent's capabilities.

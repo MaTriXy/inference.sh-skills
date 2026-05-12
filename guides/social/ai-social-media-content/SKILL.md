@@ -4,6 +4,8 @@ description: "Create AI-powered social media content for TikTok, Instagram, YouT
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # AI Social Media Content
 
 Create social media content for all platforms via [inference.sh](https://inference.sh) CLI.

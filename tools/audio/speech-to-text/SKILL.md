@@ -4,6 +4,8 @@ description: "Transcribe audio to text with ElevenLabs Scribe and Whisper models
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Speech-to-Text
 
 Transcribe audio to text via [inference.sh](https://inference.sh) CLI.

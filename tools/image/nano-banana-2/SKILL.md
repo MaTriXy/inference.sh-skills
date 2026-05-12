@@ -4,6 +4,8 @@ description: "Generate images with Google Gemini 3.1 Flash Image Preview (Nano B
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Nano Banana 2 - Gemini 3.1 Flash Image Preview
 
 Generate images with Google Gemini 3.1 Flash Image Preview via [inference.sh](https://inference.sh) CLI.

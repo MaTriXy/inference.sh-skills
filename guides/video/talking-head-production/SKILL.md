@@ -4,6 +4,8 @@ description: "Talking head video production with AI avatars, lipsync, and voiceo
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Talking Head Production
 
 Create talking head videos with AI avatars and lipsync via [inference.sh](https://inference.sh) CLI.

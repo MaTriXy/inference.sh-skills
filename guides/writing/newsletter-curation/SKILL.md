@@ -4,6 +4,8 @@ description: "Newsletter curation with content sourcing, editorial structure, an
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Newsletter Curation
 
 Create and curate high-quality newsletters via [inference.sh](https://inference.sh) CLI.

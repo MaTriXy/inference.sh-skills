@@ -4,6 +4,8 @@ description: "Generate images with Google Gemini native image models via inferen
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Nano Banana - Gemini Native Image Generation
 
 Generate images with Google Gemini native image models via [inference.sh](https://inference.sh) CLI.

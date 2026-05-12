@@ -4,6 +4,8 @@ description: "Technical blog post writing with structure, code examples, and dev
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Technical Blog Writing
 
 Write developer-focused technical blog posts via [inference.sh](https://inference.sh) CLI.

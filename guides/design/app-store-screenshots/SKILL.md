@@ -4,6 +4,8 @@ description: "App Store and Google Play screenshot creation with exact platform 
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # App Store Screenshots
 
 Create app store screenshots and preview videos via [inference.sh](https://inference.sh) CLI.

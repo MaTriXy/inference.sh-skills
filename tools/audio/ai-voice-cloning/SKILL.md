@@ -4,6 +4,8 @@ description: "AI voice generation, text-to-speech, and voice synthesis via infer
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # AI Voice Generation
 
 Generate natural AI voices via [inference.sh](https://inference.sh) CLI.
@@ -70,14 +72,14 @@ Inworld TTS-2 is purpose-built for character voices, gaming, and expressive spee
 # Expressive character voice with emotion steering
 belt app run inworld/text-to-speech-2 --input '{
   "text": "[excited] Oh wow, you actually found the ancient artifact! [gasp] I cannot believe it... [whisper] We need to keep this between us.",
-  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "voice_id": "Sarah",
   "delivery_mode": "CREATIVE"
 }'
 
 # Calm narrator with stable delivery
 belt app run inworld/text-to-speech-2 --input '{
   "text": "The sun set behind the mountains, casting long shadows across the valley. A new chapter was about to begin.",
-  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "voice_id": "Sarah",
   "delivery_mode": "STABLE"
 }'
 ```
@@ -86,13 +88,15 @@ belt app run inworld/text-to-speech-2 --input '{
 
 **Steering examples:** `[laugh]`, `[sigh]`, `[whisper]`, `[excited]`, `[sad]`, `[angry]`, `[pause]`, `[gasp]`
 
+**Built-in voices** (271+ across 15 languages): `Sarah`, `Alex`, `Ashley`, `Dennis`, `Hana`, `Blake`, `Luna`, `Clive`, and many more. Browse all at the [Inworld TTS Playground](https://platform.inworld.ai/tts-playground).
+
 ### Low-Latency for Real-Time / Conversational AI
 
 ```bash
 # Ultra-fast response for chatbots & game NPCs (~120ms)
 belt app run inworld/text-to-speech-1-5-mini --input '{
   "text": "Welcome, traveler. What brings you to our village?",
-  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "voice_id": "Clive",
   "speaking_rate": 0.9
 }'
 ```

@@ -4,6 +4,8 @@ description: "Book cover design with genre-specific conventions, typography rule
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Book Cover Design
 
 Create genre-appropriate book covers with AI image generation via [inference.sh](https://inference.sh) CLI.

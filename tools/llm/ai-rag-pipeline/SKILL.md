@@ -4,6 +4,8 @@ description: "Build RAG (Retrieval Augmented Generation) pipelines with web sear
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # AI RAG Pipeline
 
 Build RAG (Retrieval Augmented Generation) pipelines via [inference.sh](https://inference.sh) CLI.

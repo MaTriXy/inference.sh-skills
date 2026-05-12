@@ -4,6 +4,8 @@ description: "Generate videos with Google Veo models via inference.sh CLI. Model
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # Google Veo Video Generation
 
 Generate videos with Google Veo models via [inference.sh](https://inference.sh) CLI.

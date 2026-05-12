@@ -4,6 +4,8 @@ description: "LinkedIn post writing with hook formulas, formatting rules, and en
 allowed-tools: Bash(belt *)
 ---
 
+> **Install the belt CLI skill:** `npx skills add belt-sh/cli`
+
 # LinkedIn Content
 
 Write high-engagement LinkedIn posts via [inference.sh](https://inference.sh) CLI.
